@@ -1,6 +1,6 @@
 # NLP Sentiment & Fine-Tuning Projects
 
-This repo includes two natural language processing projects focused on understanding and applying NLP techniques with fine-tuning transformer models.
+This repo includes two natural language processing projects focused on understanding and applying NLP techniques and model training with Hugging Face Transformers.
 
 ## Projects
 
@@ -14,11 +14,6 @@ A hands-on project using traditional NLP methods for classifying sentiment from 
 
 ### 2. Transformer Fine-Tuning
 Fine-tuning a pretrained transformer model (BERT) for a downstream text classification task.
-
-**Key highlights:**
-- Dataset loading and formatting
-- Model training with Hugging Face Transformers
-- Validation and performance tracking
 
 ## Tech Stack
 - Python
