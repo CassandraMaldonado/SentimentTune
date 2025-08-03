@@ -8,12 +8,12 @@ This repo includes two natural language processing projects focused on understan
 A hands-on project using traditional NLP methods for classifying sentiment from text data.
 
 **Key highlights:**
-- Text preprocessing (tokenization, stopword removal, etc.)
+- Text preprocessing (tokenization, stopword removal).
 - Feature extraction with TF-IDF
 - Logistic regression and evaluation metrics
 
 ### 2. Transformer Fine-Tuning
-Fine-tuning a pretrained transformer model (e.g., BERT) for a downstream text classification task.
+Fine-tuning a pretrained transformer model (BERT) for a downstream text classification task.
 
 **Key highlights:**
 - Dataset loading and formatting
