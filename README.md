@@ -39,12 +39,12 @@ By examining both pipelines, the repo helps understand the trade-offs between mo
 
 ---
 
-### 2. Finetunning.ipynb — *(Transformer Fine-Tuning)*  
+### 2. Finetunning.ipynb *(Transformer Fine-Tuning)*  
 **Goal**: Fine-tune a pretrained BERT model for sentiment classification using Hugging Face Transformers.
 
-#### 📘 Dataset:
+#### Dataset:
 - Same format: `text`, `label`
-- Typically larger than classical ML notebooks to benefit from deep learning
+- Typically larger than classical ML notebooks to benefit from deep learning.
 
 #### 🧹 Preprocessing:
 - Uses `AutoTokenizer` to tokenize input into WordPiece format.
@@ -78,16 +78,3 @@ By examining both pipelines, the repo helps understand the trade-offs between mo
 
 > 🎯 BERT outperforms classic methods on complex sentiment — especially when context matters.
 
----
-
-## ⚙️ Setup
-
-```bash
-git clone https://github.com/CassandraMaldonado/SentimentTune.git
-cd SentimentTune
-
-# Optional: Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-pip install -r requirements.txt
