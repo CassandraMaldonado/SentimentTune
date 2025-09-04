@@ -10,11 +10,4 @@ Both are applied to real sentiment data and include full preprocessing, training
 
 ## Project Goals
 
-By examining both pipelines, the repo helps understand the 
-- trade-offs between model complexity and interpretability,
-- practical steps for real-world NLP,
-- how transformer fine-tuning differs from classical vectorization.
-
----
-
-## 📁 Repository Structure
+By examining both pipelines, the repo helps understand the trade-offs between model complexity and interpretability, practical steps for real-world NLP and how transformer fine-tuning differs from classical vectorization.
