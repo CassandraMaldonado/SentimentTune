@@ -8,13 +8,9 @@ Both are applied to real sentiment data and include full preprocessing, training
 
 ---
 
-## 🧪 Project Goals
+## Project Goals
 
-This project demonstrates and compares:
-- ✅ A **lightweight, interpretable baseline** for text classification using scikit-learn.
-- 🤗 A **modern transformer-based approach** with minimal manual feature engineering and strong performance.
-
-By examining both pipelines, the repo helps students, analysts, and engineers understand:
+By examining both pipelines, the repo helps understand the 
 - trade-offs between model complexity and interpretability,
 - practical steps for real-world NLP,
 - how transformer fine-tuning differs from classical vectorization.
