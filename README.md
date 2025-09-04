@@ -16,35 +16,30 @@ By examining both pipelines, the repo helps understand the trade-offs between mo
 
 ## Notebook Summaries
 
-### Sentiment_Analysis.ipynb *(Classical ML)*  
+### 1. Sentiment_Analysis.ipynb *(Classical ML)*  
 **Goal**: Build an interpretable sentiment classifier from scratch using scikit-learn.
 
-#### 📘 Dataset:
-- Assumes a labeled dataset of short text reviews (e.g., from IMDb or similar)
+#### Dataset:
+- Assumes a labeled dataset of short text reviews from IMDb.
 - Columns typically: `text`, `label` (binary: positive/negative)
 
-#### 🧹 Preprocessing:
-- Text is cleaned, tokenized, and lowercased.
+#### Preprocessing:
+- Text is cleaned, tokenized and lowercased.
 - Stop words are removed.
 - Data is split into training and test sets.
 
-#### 🧠 Modeling:
+#### Modeling:
 - TF-IDF vectorization transforms text into sparse numerical features.
 - A logistic regression classifier is trained to distinguish sentiment.
 - Includes a grid search for hyperparameter tuning (`C` values).
 
-#### 📊 Evaluation:
-- Performance is measured using accuracy, precision, recall, and F1-score.
+#### Evaluation:
+- Performance is measured using accuracy, precision, recall and F1-score.
 - Confusion matrix gives insight into types of misclassifications.
-
-#### 📌 Insights:
-- Easy to build and deploy.
-- Works well on smaller datasets.
-- Limited in capturing semantic nuances like sarcasm or negation.
 
 ---
 
-### 2️⃣ finetunning.ipynb — *(Transformer Fine-Tuning)*  
+### 2. Finetunning.ipynb — *(Transformer Fine-Tuning)*  
 **Goal**: Fine-tune a pretrained BERT model for sentiment classification using Hugging Face Transformers.
 
 #### 📘 Dataset:
