@@ -46,26 +46,20 @@ By examining both pipelines, the repo helps understand the trade-offs between mo
 - Same format: `text`, `label`
 - Typically larger than classical ML notebooks to benefit from deep learning.
 
-#### 🧹 Preprocessing:
+#### Preprocessing:
 - Uses `AutoTokenizer` to tokenize input into WordPiece format.
 - Labels are converted to integers.
 
-#### ⚙️ Model & Training:
+#### Model & Training:
 - Loads `bert-base-uncased` via `AutoModelForSequenceClassification`
 - Uses `Trainer` API for training loop
 - Includes training arguments: learning rate, batch size, epochs
 - GPU-compatible and Colab-ready
 
-#### 📊 Evaluation:
+#### Evaluation:
 - Metrics include accuracy, precision, recall, F1-score (same as classical)
 - Training/validation loss curves and logs
 - Option to export the trained model
-
-#### 📌 Insights:
-- Stronger performance with limited feature engineering
-- Learns contextual meaning of words (e.g., “not good” ≠ “good”)
-- Requires more compute and memory
-- Ideal for production applications with nuance in language
 
 ---
 
