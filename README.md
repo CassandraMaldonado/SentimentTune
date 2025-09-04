@@ -1,22 +1,24 @@
 # NLP Sentiment & Fine-Tuning Projects
 
-This repo includes two natural language processing projects focused on understanding and applying NLP techniques and model training with Hugging Face Transformers.
+This repo contains two distinct workflows for sentiment classification:
+1. A traditional machine learning pipeline using TF-IDF + Logistic Regression.
+2. A transformer-based fine-tuning pipeline using Hugging Face + BERT.
 
-## Projects
+Both are applied to real sentiment data and include full preprocessing, training, evaluation and insight generation.
 
-### 1. Sentiment Analysis
-A hands-on project using traditional NLP methods for classifying sentiment from text data.
+---
 
-**Key highlights:**
-- Text preprocessing (tokenization, stopword removal).
-- Feature extraction with TF-IDF.
-- Logistic regression and evaluation metrics.
+## 🧪 Project Goals
 
-### 2. Transformer Fine-Tuning
-Fine-tuning a pretrained transformer model (BERT) for a downstream text classification task.
+This project demonstrates and compares:
+- ✅ A **lightweight, interpretable baseline** for text classification using scikit-learn.
+- 🤗 A **modern transformer-based approach** with minimal manual feature engineering and strong performance.
 
-## Tech Stack
-- Python
-- scikit-learn
-- Hugging Face Transformers
-- PyTorch
+By examining both pipelines, the repo helps students, analysts, and engineers understand:
+- trade-offs between model complexity and interpretability,
+- practical steps for real-world NLP,
+- how transformer fine-tuning differs from classical vectorization.
+
+---
+
+## 📁 Repository Structure
