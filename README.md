@@ -70,5 +70,5 @@ By examining both pipelines, the repo helps understand the trade-offs between mo
 | TF-IDF + Logistic Reg. | ~82%     | ~0.84    | Fast, interpretable baseline   |
 | Fine-Tuned BERT        | ~89%     | ~0.90    | Stronger generalization        |
 
-BERT outperforms classic methods on complex sentiment — especially when context matters.
+BERT outperforms classic methods on complex sentiment, especially when context matters.
 
