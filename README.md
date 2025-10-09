@@ -1,4 +1,4 @@
-# NLP Sentiment & Fine-Tuning Projects
+# NLP Sentiment and Fine-Tuning Projects
 
 This repo contains two distinct workflows for sentiment classification:
 1. A traditional machine learning pipeline using TF-IDF + Logistic Regression.
