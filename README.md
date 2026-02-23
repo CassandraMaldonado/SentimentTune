@@ -16,8 +16,7 @@ By examining both pipelines, the repo helps understand the trade-offs between mo
 
 ## Notebook Summaries
 
-### 1. Sentiment_Analysis.ipynb 
-***(Classical ML)***
+### 1. Sentiment_Analysis ***(Classical ML)***
 
 **Goal**: Build an interpretable sentiment classifier from scratch using scikit-learn.
 
