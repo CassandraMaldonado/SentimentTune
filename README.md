@@ -40,8 +40,7 @@ By examining both pipelines, the repo helps understand the trade-offs between mo
 
 ---
 
-### 2. Finetunning.ipynb 
-***(Transformer Fine-Tuning)***
+### 2. Finetunning ***(Transformer Fine-Tuning)***
 
 **Goal**: Fine-tune a pretrained BERT model for sentiment classification using Hugging Face Transformers.
 
