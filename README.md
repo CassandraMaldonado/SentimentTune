@@ -66,7 +66,7 @@ By examining both pipelines, the repo helps understand the trade-offs between mo
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 
 | Method                  | Accuracy | F1 Score | Notes                          |
 |------------------------|----------|----------|--------------------------------|
